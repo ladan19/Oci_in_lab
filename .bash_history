@@ -247,3 +247,9 @@ git push -u origin master
 ls
 cat network.tf 
 git add .
+git commit -am "first deploy"
+ls
+ls -lh
+touch .gitignore
+vi .gitignore 
+git add .

@@ -39,18 +39,19 @@
 	variable "region" {}
 
 # File marks:
-'0  30  8  ~/network.tf
-'1  27  0  ~/network.tf
-'2  15  0  ~/network.tf
-'3  18  50  ~/network.tf
-'4  20  31  ~/network.tf
-'5  25  25  ~/network.tf
-'6  16  0  ~/network.tf
-'7  13  9  ~/network.tf
-'8  11  31  ~/network.tf
-'9  3  0  ~/var.tf
+'0  1  1  ~/.gitignore
+'1  30  8  ~/network.tf
+'2  27  0  ~/network.tf
+'3  15  0  ~/network.tf
+'4  18  50  ~/network.tf
+'5  20  31  ~/network.tf
+'6  25  25  ~/network.tf
+'7  16  0  ~/network.tf
+'8  13  9  ~/network.tf
+'9  11  31  ~/network.tf
 
 # Jumplist (newest first):
+-'  1  1  ~/.gitignore
 -'  30  8  ~/network.tf
 -'  27  0  ~/network.tf
 -'  15  1  ~/network.tf
@@ -148,9 +149,14 @@
 -'  6  1  ~/provider.tf
 -'  1  0  ~/provider.td
 -'  1  0  ~/provider.td
--'  3  1  ~/provider.tf
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
 
 > ~/network.tf
 	"	30	8
