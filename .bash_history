@@ -399,3 +399,18 @@ git branch
 git push
 git push origin master
 vi .gitignore 
+git commit -am "deploy"
+git push
+ls
+mkdir terraform
+mv compute.tf terraform/
+mv network.tf terraform
+mv terraform* terraform/
+mv terraform.tfstate* terraform/
+ls
+mv var.tf terraform/
+ls
+cd terraform/
+git push
+vi network.tf 
+vi compute.tf 

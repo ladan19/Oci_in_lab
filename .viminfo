@@ -9,9 +9,9 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
+:q!
 :Wq
 :WQ
-:q!
 :q
 
 # Search String History (newest to oldest):
@@ -45,18 +45,22 @@
 	 
 
 # File marks:
-'0  5  17  ~/.gitignore
-'1  7  47  ~/.git/config
-'2  3  0  ~/.ssh/private.pem
-'3  3  23  ~/compute.tf
-'4  5  1  ~/compute.tf
-'5  2  9  ~/compute.tf
-'6  27  23  ~/compute.tf
-'7  29  0  ~/compute.tf
-'8  28  1  ~/compute.tf
-'9  6  23  ~/compute.tf
+'0  2  9  ~/terraform/compute.tf
+'1  30  0  ~/terraform/network.tf
+'2  5  17  ~/.gitignore
+'3  7  47  ~/.git/config
+'4  3  0  ~/.ssh/private.pem
+'5  3  23  ~/compute.tf
+'6  5  1  ~/compute.tf
+'7  2  9  ~/compute.tf
+'8  27  23  ~/compute.tf
+'9  29  0  ~/compute.tf
 
 # Jumplist (newest first):
+-'  2  9  ~/terraform/compute.tf
+-'  1  0  ~/terraform/compute.tf
+-'  30  0  ~/terraform/network.tf
+-'  1  0  ~/terraform/network.tf
 -'  5  17  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  7  47  ~/.git/config
@@ -152,11 +156,17 @@
 -'  3  1  ~/provider.tf
 -'  1  0  ~/provider.td
 -'  1  0  ~/provider.td
--'  2  113  ~/provider.tf
--'  1  0  ~/provider.tf
--'  6  1  ~/provider.tf
 
 # History of marks within files (newest to oldest):
+
+> ~/terraform/compute.tf
+	"	2	9
+	^	2	10
+	.	2	9
+	+	2	9
+
+> ~/terraform/network.tf
+	"	30	0
 
 > ~/.gitignore
 	"	5	17
