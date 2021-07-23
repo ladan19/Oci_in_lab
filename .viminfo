@@ -9,8 +9,8 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-:WQ
 :Wq
+:WQ
 :q!
 :q
 
@@ -45,18 +45,20 @@
 	 
 
 # File marks:
-'0  7  47  ~/.git/config
-'1  3  0  ~/.ssh/private.pem
-'2  3  23  ~/compute.tf
-'3  5  1  ~/compute.tf
-'4  2  9  ~/compute.tf
-'5  27  23  ~/compute.tf
-'6  29  0  ~/compute.tf
-'7  28  1  ~/compute.tf
-'8  6  23  ~/compute.tf
-'9  22  9  ~/compute.tf
+'0  5  17  ~/.gitignore
+'1  7  47  ~/.git/config
+'2  3  0  ~/.ssh/private.pem
+'3  3  23  ~/compute.tf
+'4  5  1  ~/compute.tf
+'5  2  9  ~/compute.tf
+'6  27  23  ~/compute.tf
+'7  29  0  ~/compute.tf
+'8  28  1  ~/compute.tf
+'9  6  23  ~/compute.tf
 
 # Jumplist (newest first):
+-'  5  17  ~/.gitignore
+-'  1  0  ~/.gitignore
 -'  7  47  ~/.git/config
 -'  1  0  ~/.git/config
 -'  3  0  ~/.ssh/private.pem
@@ -84,7 +86,6 @@
 -'  30  0  ~/network.tf
 -'  12  0  ~/compute.tf
 -'  1  0  ~/compute.tf
--'  1  1  ~/.gitignore
 -'  27  0  ~/network.tf
 -'  15  1  ~/network.tf
 -'  18  0  ~/network.tf
@@ -154,10 +155,16 @@
 -'  2  113  ~/provider.tf
 -'  1  0  ~/provider.tf
 -'  6  1  ~/provider.tf
--'  1  0  ~/provider.td
--'  1  0  ~/provider.td
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	5	17
+	^	5	18
+	.	5	17
+	+	1	1
+	+	4	7
+	+	5	17
 
 > ~/.git/config
 	"	7	47
@@ -279,12 +286,6 @@
 	+	15	37
 	+	27	1
 	+	27	0
-
-> ~/.gitignore
-	"	1	1
-	^	1	2
-	.	1	1
-	+	1	1
 
 > ~/provider.tf
 	"	2	113

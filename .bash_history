@@ -386,3 +386,16 @@ git remote set-url OCI-in-Lab https://github.com/ladan19/OCI-in-Lab.git:.
 vi .git/config 
 git push
 git add .
+git commit -am "first commit"
+git push
+git pull
+ls
+git push
+git branch --set-upstream-to=origin/master
+git push
+git pull
+git pull remote master
+git branch
+git push
+git push origin master
+vi .gitignore 
