@@ -9,8 +9,10 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
+:WQ
 :Wq
 :q!
+:q
 
 # Search String History (newest to oldest):
 
@@ -21,38 +23,68 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-		}
+"1	LINE	0
+		baseline_ocpu_utilization = "BASELINE_1_8"
 "2	LINE	0
-			cidr_block = "192.168.0.0/24"
+	}
 "3	LINE	0
-			 network_entity_id = "10.0.0.1"
+	    compartment_id = "${var.compartment_ocid}"
 "4	LINE	0
-		route_rules {
+	    availability_domain = data.oci_identity_availability_domains.AvailabilityDomains.availability_domains[0]["name"]
 "5	LINE	0
-	   region = "${var.region}"
+	data "oci_identity_fault_domains" "FaultDomains" {
 "6	LINE	0
-	   auth = "InstancePrincipal"
-"7	LINE	0
 	
+"7	LINE	0
+	}
 "8	LINE	0
-	variable "region" {}
+	    compartment_id = var.tenancy_ocid
+"9	LINE	0
+	data "oci_identity_availability_domains" "AvailabilityDomains" {
+""-	CHAR	0
+	 
 
 # File marks:
-'0  1  1  ~/.gitignore
-'1  30  8  ~/network.tf
-'2  27  0  ~/network.tf
-'3  15  0  ~/network.tf
-'4  18  50  ~/network.tf
-'5  20  31  ~/network.tf
-'6  25  25  ~/network.tf
-'7  16  0  ~/network.tf
-'8  13  9  ~/network.tf
-'9  11  31  ~/network.tf
+'0  7  47  ~/.git/config
+'1  3  0  ~/.ssh/private.pem
+'2  3  23  ~/compute.tf
+'3  5  1  ~/compute.tf
+'4  2  9  ~/compute.tf
+'5  27  23  ~/compute.tf
+'6  29  0  ~/compute.tf
+'7  28  1  ~/compute.tf
+'8  6  23  ~/compute.tf
+'9  22  9  ~/compute.tf
 
 # Jumplist (newest first):
+-'  7  47  ~/.git/config
+-'  1  0  ~/.git/config
+-'  3  0  ~/.ssh/private.pem
+-'  1  0  ~/.ssh/private.pem
+-'  3  23  ~/compute.tf
+-'  5  1  ~/compute.tf
+-'  2  1  ~/compute.tf
+-'  27  1  ~/compute.tf
+-'  29  0  ~/compute.tf
+-'  28  1  ~/compute.tf
+-'  6  1  ~/compute.tf
+-'  22  1  ~/compute.tf
+-'  21  1  ~/compute.tf
+-'  23  0  ~/compute.tf
+-'  17  1  ~/compute.tf
+-'  16  1  ~/compute.tf
+-'  4  1  ~/compute.tf
+-'  6  0  ~/var.tf
+-'  7  0  ~/var.tf
+-'  3  1  ~/var.tf
+-'  10  1  ~/compute.tf
+-'  8  1  ~/compute.tf
+-'  31  0  ~/compute.tf
+-'  11  1  ~/compute.tf
+-'  30  0  ~/network.tf
+-'  12  0  ~/compute.tf
+-'  1  0  ~/compute.tf
 -'  1  1  ~/.gitignore
--'  30  8  ~/network.tf
 -'  27  0  ~/network.tf
 -'  15  1  ~/network.tf
 -'  18  0  ~/network.tf
@@ -62,7 +94,6 @@
 -'  13  1  ~/network.tf
 -'  11  1  ~/network.tf
 -'  12  1  ~/network.tf
--'  3  0  ~/var.tf
 -'  4  0  ~/var.tf
 -'  1  0  ~/var.tf
 -'  2  1  ~/network.tf
@@ -125,41 +156,79 @@
 -'  6  1  ~/provider.tf
 -'  1  0  ~/provider.td
 -'  1  0  ~/provider.td
--'  3  1  ~/provider.tf
--'  1  0  ~/provider.td
--'  1  0  ~/provider.td
--'  2  113  ~/provider.tf
--'  1  0  ~/provider.tf
--'  6  1  ~/provider.tf
--'  1  0  ~/provider.td
--'  1  0  ~/provider.td
--'  3  1  ~/provider.tf
--'  1  0  ~/provider.td
--'  1  0  ~/provider.td
--'  2  113  ~/provider.tf
--'  1  0  ~/provider.tf
--'  6  1  ~/provider.tf
--'  1  0  ~/provider.td
--'  1  0  ~/provider.td
--'  3  1  ~/provider.tf
--'  1  0  ~/provider.td
--'  1  0  ~/provider.td
--'  2  113  ~/provider.tf
--'  1  0  ~/provider.tf
--'  6  1  ~/provider.tf
--'  1  0  ~/provider.td
--'  1  0  ~/provider.td
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitignore
-	"	1	1
-	^	1	2
-	.	1	1
-	+	1	1
+> ~/.git/config
+	"	7	47
+	^	7	48
+	.	7	7
+	+	7	7
+
+> ~/.ssh/private.pem
+	"	3	0
+	^	1	5
+	.	2	0
+	+	27	0
+	+	1	4
+	+	2	0
+
+> ~/compute.tf
+	"	3	23
+	^	3	24
+	.	3	24
+	+	6	9
+	+	12	0
+	+	6	24
+	+	4	32
+	+	8	5
+	+	8	18
+	+	11	21
+	+	6	10
+	+	12	2
+	+	31	0
+	+	8	0
+	+	10	14
+	+	10	103
+	+	4	104
+	+	4	23
+	+	13	0
+	+	16	38
+	+	17	1
+	+	24	0
+	+	21	16
+	+	22	1
+	+	21	17
+	+	22	9
+	+	21	17
+	+	22	9
+	+	21	19
+	+	22	11
+	+	21	19
+	+	21	17
+	+	22	10
+	+	6	23
+	+	25	13
+	+	27	419
+	+	28	1
+	+	27	1
+	+	28	0
+	+	29	0
+	+	27	24
+	+	2	9
+	+	3	24
+
+> ~/var.tf
+	"	6	0
+	.	7	0
+	+	1	23
+	+	4	0
+	+	3	12
+	+	7	0
+	+	7	0
 
 > ~/network.tf
-	"	30	8
+	"	30	0
 	^	27	1
 	.	27	0
 	+	7	26
@@ -211,13 +280,11 @@
 	+	27	1
 	+	27	0
 
-> ~/var.tf
-	"	3	0
-	^	3	0
-	.	3	12
-	+	1	23
-	+	4	0
-	+	3	12
+> ~/.gitignore
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
 
 > ~/provider.tf
 	"	2	113

@@ -253,3 +253,136 @@ ls -lh
 touch .gitignore
 vi .gitignore 
 git add .
+git commit -am "first deploy"
+git push 
+git config --global push.default matching
+git push 
+cat .gitconfig 
+gh repo clone ladan19/OCI-in-Lab
+cat network.tf 
+vi compute.tf
+ls
+terraform validate
+vi compute.tf 
+terraform validate
+vi compute.tf 
+terraform validate
+vi compute.tf 
+terraform validate
+terraform plan
+terraform apply -auto-approve
+vi network.tf 
+vi compute.tf 
+oci compute image list
+oci compute image list -c 
+cat var.tf 
+oci compute image list -c ocid1.compartment.oc1..aaaaaaaaqngvj3a4zn3bkprl4ygqr7qjahsb2lrzc647yk7kowlpvem2nsma
+oci compute image list -c ocid1.compartment.oc1..aaaaaaaaqngvj3a4zn3bkprl4ygqr7qjahsb2lrzc647yk7kowlpvem2nsma --output table
+oci compute image list -c ocid1.compartment.oc1..aaaaaaaaqngvj3a4zn3bkprl4ygqr7qjahsb2lrzc647yk7kowlpvem2nsma 
+vi compute.tf 
+oci compute shape list -c ocid1.compartment.oc1..aaaaaaaaqngvj3a4zn3bkprl4ygqr7qjahsb2lrzc647yk7kowlpvem2nsma
+vi compute.tf 
+terraform validate
+vi compute.tf 
+terraform validate
+vi compute.tf 
+terraform validate
+vi compute.tf 
+terraform validate
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform plan
+vi compute.tf 
+terraform plan
+c
+cat var.tf 
+vi var.tf 
+vi compute.tf 
+oci iam availability-domain list list
+oci iam availability-domain list
+vi compute.tf 
+vi var.tf 
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+cat network.tf 
+vi compute.tf 
+terraform plan
+vi compute.tf 
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform plan
+vi compute.tf 
+terraform apply -auto-approve
+vi compute.tf 
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform plan
+terraform apply -auto-approve
+history 
+wq
+vi compute.tf 
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform validate
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform validate
+vi compute.tf 
+terraform validate
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform validate
+terraform plan
+terraform apply -auto-approve
+vi compute.tf 
+terraform validate
+terraform plan
+terraform apply -auto-approve
+cat network.tf 
+cat cum
+cat compute.tf 
+git add .
+cat network.tf 
+cat compute.tf 
+vi .ssh/private.pem
+git@github.com:ladan19/OCI-in-Lab.git
+ssh -i .ssh/private.pem git@github.com:ladan19/OCI-in-Lab.git
+ssh -T git@github.com:ladan19/OCI-in-Lab.git
+git push
+https://github.com/ladan19/OCI-in-Lab.git
+oring https://github.com/ladan19/OCI-in-Lab.git
+git remote -v
+git remote set-url https://github.com/ladan19/OCI-in-Lab.git
+git remote set url OCI-in-Lab https://github.com/ladan19/OCI-in-Lab.git:.
+git remote set-url OCI-in-Lab https://github.com/ladan19/OCI-in-Lab.git:.
+vi .git/config 
+git push
+git add .
