@@ -10,6 +10,7 @@ resource "oci_core_subnet" "test_subnet" {
 	vcn_id = oci_core_vcn.test_vcn.id
 	display_name = "public-subnet"
 	route_table_id = oci_core_route_table.test_route_table.id
+	security_list_ids = [oci_core_security_list.test_security_list.id]
 	
 }
 
