@@ -10,3 +10,8 @@ resource "oci_core_subnet" "test_subnet" {
 	vcn_id = oci_core_vcn.test_vcn.id
 	display_name = "public-subnet"
 }
+
+resource "oci_core_internet_gateway" "test_internet_gateway" {
+	compartment_id = var.compartment
+	vcn_id = oci_core_vcn.test_vcn.id
+}
