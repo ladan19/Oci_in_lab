@@ -1,4 +1,3 @@
-terraform {
-    required_version = ">= 0.13"
+provider "oci" {
+    version = "4.75.0"
 }
-provider "oci" {}
