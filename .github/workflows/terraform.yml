@@ -77,7 +77,11 @@ jobs:
 
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
-      run: terraform init
+      run: | 
+      terraform init
+      echo $secrets.OCI_USER
+      echo $OCI_USER
+      
 
 
     # Generates an execution plan for Terraform
