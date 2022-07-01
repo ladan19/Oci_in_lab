@@ -1,4 +1,3 @@
 provider "oci" {
-           source  = "hashicorp/oci"
-           version = ">= 4.0.0"
+           version = ">= 3.27.0"
 }
