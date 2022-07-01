@@ -81,6 +81,7 @@ jobs:
         terraform init
         echo "$PROD.OCI_USER"
         echo "$OCI_USER"
+        echo $PROD.OCI_USER
       
 
 
