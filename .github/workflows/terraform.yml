@@ -94,12 +94,12 @@ jobs:
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
-      env:
+      with:
         user_ocid: ${{ secrets.OCI_USER }}
         fingerprint: ${{ secrets.OCI_FINGERPRINT }}
         private_key: ${{ secrets.OCI_PRIVATE }}
         
-      run: terraform plan -input=false -var="user_ocid=${{ secrets.OCI_USER }}" -var="fingerprint=${{ secrets.OCI_FINGERPRINT }}" -var="private_key=${{ secrets.OCI_PRIVATE }}"
+      run: terraform plan -var="user_ocid=${{ secrets.OCI_USER }}" -var="fingerprint=${{ secrets.OCI_FINGERPRINT }}" -var="private_key=${{ secrets.OCI_PRIVATE }}"
 
 
       # On push to "main", build or change infrastructure according to Terraform configuration files
