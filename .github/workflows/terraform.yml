@@ -84,6 +84,7 @@ jobs:
       run: |
         terraform init
         echo "$user_ocid"
+        echo "teste do echo"
         
       
 
