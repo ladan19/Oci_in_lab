@@ -85,7 +85,7 @@ jobs:
       run: |
         terraform init
         echo $private_key
-        echo "$private_key"
+        echo " essa é a mnha chave: $private_key"
         echo "$user_ocid"
         echo "teste do echo"
         
