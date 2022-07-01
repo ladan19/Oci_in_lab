@@ -94,7 +94,7 @@ jobs:
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
-      with:
+      env:
         user_ocid: ${{ secrets.OCI_USER }}
         fingerprint: ${{ secrets.OCI_FINGERPRINT }}
         private_key: ${{ secrets.OCI_PRIVATE }}
