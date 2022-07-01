@@ -1,1 +1,1 @@
-provider "oci" {}
+provider "oracle/oci" {}
