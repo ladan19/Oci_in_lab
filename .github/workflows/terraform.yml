@@ -78,11 +78,14 @@ jobs:
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
       env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         user_ocid: ${{ secrets.OCI_USER }}
         fingerprint: ${{ secrets.OCI_FINGERPRINT }}
-        private_key_path: ${{ secrets.OCI_PRIVATE }}
+        private_key: ${{ secrets.OCI_PRIVATE }}
       run: |
         terraform init
+        echo $private_key
+        echo "$private_key"
         echo "$user_ocid"
         echo "teste do echo"
         
