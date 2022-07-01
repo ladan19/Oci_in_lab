@@ -79,7 +79,7 @@ jobs:
     - name: Terraform Init
       run: |
         terraform init
-        echo "$secrets.OCI_USER"
+        echo "$PROD.OCI_USER"
         echo "$OCI_USER"
       
 
