@@ -83,7 +83,7 @@ jobs:
         private_key_path: ${{ secrets.OCI_PRIVATE }}
       run: |
         terraform init
-        echo $user_ocid
+        echo "$user_ocid"
         
       
 
